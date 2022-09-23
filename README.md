@@ -125,4 +125,4 @@ Por último, encontramos que las búsquedas por rango, son más eficientes dentr
 
 
 # **Pruebas**
-En el video:  (LINK)
+En el video:  ([LINK](https://youtu.be/FY1ixw4scqk))
