@@ -77,6 +77,11 @@ Tiempo medido en segundos
 | Extendible Hash | 0.008 | 0.008 | 0.008 | 0.008 |  0.008 |
 
 ### Búsqueda por rango
+| | | | | | |
+| :-------------------: | --- | --- | --- | --- | --- |
+| | 500 registros | 1000 registros | 1500 registros | 2000 registros | 2500 registros |
+| Secuencial | 0.436 | 0.443 | 0.445 | 0.445 | 0.447 | 
+| Extendible Hash | 0.737 | 0.763 | 0.725 | 0.775 |  0.68 |
 
 
 ## Accesos a memoria secundaria
