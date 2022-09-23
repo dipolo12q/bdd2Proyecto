@@ -66,21 +66,21 @@ Tiempo medido en segundos
 | | | | | | |
 | :-------------------: | --- | --- | --- | --- | --- |
 | | 500 registros | 1000 registros | 1500 registros | 2000 registros | 2500 registros |
-| Secuencial | 0.512 | 1.021 | 1.491 | 1.932 | 2.456 | 
+| Sequential | 0.512 | 1.021 | 1.491 | 1.932 | 2.456 | 
 | Extendible Hash | 0.484 | 0.888 | 1.687 | 2.442 |  3.261 |
 
 ### Búsqueda de un registro
 | | | | | | |
 | :-------------------: | --- | --- | --- | --- | --- |
 | | 500 registros | 1000 registros | 1500 registros | 2000 registros | 2500 registros |
-| Secuencial | 0.008 | 0.008 | 0.009 | 0.009 | 0.01 | 
+| Sequential | 0.008 | 0.008 | 0.009 | 0.009 | 0.01 | 
 | Extendible Hash | 0.008 | 0.008 | 0.008 | 0.008 |  0.008 |
 
 ### Búsqueda por rango
 | | | | | | |
 | :-------------------: | --- | --- | --- | --- | --- |
 | | 500 registros | 1000 registros | 1500 registros | 2000 registros | 2500 registros |
-| Secuencial | 0.436 | 0.443 | 0.445 | 0.445 | 0.447 | 
+| Sequential | 0.436 | 0.443 | 0.445 | 0.445 | 0.447 | 
 | Extendible Hash | 0.737 | 0.763 | 0.725 | 0.775 |  0.68 |
 
 
@@ -91,14 +91,14 @@ Para obtener los accesos a memoria secundaria dentro de las funciones especifica
 | | | | | | |
 | :-------------------: | --- | --- | --- | --- | --- |
 | | 500 registros | 1000 registros | 1500 registros | 2000 registros | 2500 registros |
-| Secuencial | 2524 | 5048 | 7572 | 10096 | 12620 | 
+| Sequential | 2524 | 5048 | 7572 | 10096 | 12620 | 
 | Extendible Hash | 1092 | 2184 | 3854 | 5354 |  6908 |
 
 ### Busqueda de un registro
 | | | | | | |
 | :-------------------: | --- | --- | --- | --- | --- |
 | | 500 registros | 1000 registros | 1500 registros | 2000 registros | 2500 registros |
-| Secuencial | 12 | 12 | 13 | 14 | 15 | 
+| Sequential | 12 | 12 | 13 | 14 | 15 | 
 | Extendible Hash | 2 | 2 | 2 | 2 | 2 |
 
 
