@@ -63,11 +63,13 @@ Asimismo, al momento de realizar la eliminación de un registro, lo unico que ca
 Tiempo medido en segundos
 
 ### Inserción de registros
+| :-------------------: | --- | --- | --- | --- | --- |
 | | 500 registros | 1000 registros | 1500 registros | 2000 registros | 2500 registros |
 | Secuencial | 0.512 | 1.021 | 1.491 | 1.932 | 2.456 | 
 | Extendible Hash | 0.484 | 0.888 | 1.687 | 2.442 |  3.261 |
 
 ### Búsqueda de un registro
+| :-------------------: | --- | --- | --- | --- | --- |
 | | 500 registros | 1000 registros | 1500 registros | 2000 registros | 2500 registros |
 | Secuencial | 0.008 | 0.008 | 0.009 | 0.009 | 0.01 | 
 | Extendible Hash | 0.008 | 0.008 | 0.008 | 0.008 |  0.008 |
@@ -79,11 +81,13 @@ Tiempo medido en segundos
 Para obtener los accesos a memoria secundaria dentro de las funciones especificadas, se contará los "reads" y "writes" que haga la función en su tiempo de ejecución.
 
 ### Inserción de registros
+| :-------------------: | --- | --- | --- | --- | --- |
 | | 500 registros | 1000 registros | 1500 registros | 2000 registros | 2500 registros |
 | Secuencial | 2524 | 5048 | 7572 | 10096 | 12620 | 
 | Extendible Hash | 1092 | 2184 | 3854 | 5354 |  6908 |
 
 ### Busqueda de un registro
+| :-------------------: | --- | --- | --- | --- | --- |
 | | 500 registros | 1000 registros | 1500 registros | 2000 registros | 2500 registros |
 | Secuencial | 12 | 12 | 13 | 14 | 15 | 
 | Extendible Hash | 2 | 2 | 2 | 2 | 2 |
