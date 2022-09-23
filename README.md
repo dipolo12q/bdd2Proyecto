@@ -63,6 +63,7 @@ Asimismo, al momento de realizar la eliminación de un registro, lo unico que ca
 Tiempo medido en segundos
 
 ### Inserción de registros
+| Técnica | | | | | |
 | :-------------------: | --- | --- | --- | --- | --- |
 | | 500 registros | 1000 registros | 1500 registros | 2000 registros | 2500 registros |
 | Secuencial | 0.512 | 1.021 | 1.491 | 1.932 | 2.456 | 
