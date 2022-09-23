@@ -93,7 +93,7 @@ Para obtener los accesos a memoria secundaria dentro de las funciones especifica
 #### Accesos a memoria secundaria
 
 <img src="/imagenes/insercion_accesos.jpg" width="600">
-<img src="/imagenes/acceso_bregistro.JPG" width="600">
+<img src="/imagenes/search_accesos.jpg" width="600">
 
 ## Discusión y análisis de resultados experimentales
 Los resultados experimentales muestran que entre ambas técnicas de almacenamiento de datos, existen diferencias significativas en sus tiempos de ejecución acorde a la funcionalidad que se requiera.
