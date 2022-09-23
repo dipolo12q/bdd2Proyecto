@@ -87,7 +87,7 @@ Para obtener los accesos a memoria secundaria dentro de las funciones especifica
 
 #### Tiempo de ejecución
 <img src="/imagenes/insercion.jpg" width="600">
-<img src="/imagenes/busqueda_t.JPG" width="600">
+<img src="/imagenes/search.jpg" width="600">
 <img src="/imagenes/busqueda_rt.JPG" width="600">
 
 #### Accesos a memoria secundaria
